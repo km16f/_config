@@ -1,0 +1,77 @@
+{
+    "ingest": [
+        {
+            "buttons": [
+                {
+                    "label": "Copy",
+                    "module": "cgl_tools.ingest.preflights.cam.Copy",
+                    "name": "Copy",
+                    "order": 1,
+                    "required": "True"
+                },
+                {
+                    "label": "CreateAudioPreview",
+                    "module": "cgl_tools.ingest.preflights.cam.CreateAudioPreview",
+                    "name": "CreateAudioPreview",
+                    "order": 2,
+                    "required": "True"
+                },
+                {
+                    "label": "Transcribe",
+                    "module": "cgl_tools.ingest.preflights.cam.Transcribe",
+                    "name": "Transcribe",
+                    "order": 3,
+                    "required": "True"
+                },
+                {
+                    "label": "CreateWebPreview",
+                    "module": "cgl_tools.ingest.preflights.cam.CreateWebPreview",
+                    "name": "CreateWebPreview",
+                    "order": 4,
+                    "required": "True"
+                },
+                {
+                    "label": "Create Prores",
+                    "module": "cgl_tools.ingest.preflights.cam.CreateProres",
+                    "name": "CreateProres",
+                    "order": 5,
+                    "required": "True"
+                },
+                {
+                    "label": "CreateThumbnail",
+                    "module": "cgl_tools.ingest.preflights.cam.CreateThumbnail",
+                    "name": "CreateThumbnail",
+                    "order": 6,
+                    "required": "True"
+                },
+                {
+                    "label": "Creategifpreview",
+                    "module": "cgl_tools.ingest.preflights.cam.Creategifpreview",
+                    "name": "Creategifpreview",
+                    "order": 7,
+                    "required": "True"
+                }
+            ],
+            "name": "cam"
+        },
+        {
+            "buttons": [
+                {
+                    "label": "Copy",
+                    "module": "cgl_tools.ingest.preflights.audio.Copy",
+                    "name": "Copy",
+                    "order": 1,
+                    "required": "True"
+                },
+                {
+                    "label": "Transcribe",
+                    "module": "cgl_tools.ingest.preflights.audio.Transcribe",
+                    "name": "Transcribe",
+                    "order": 2,
+                    "required": "True"
+                }
+            ],
+            "name": "audio"
+        }
+    ]
+}
